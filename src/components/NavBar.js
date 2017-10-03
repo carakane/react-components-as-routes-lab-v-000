@@ -20,7 +20,7 @@ const NavBar = () => {
         activeStyle={{
           background: 'darkblue'
         }}
-      >Home Page</NavLink>
+      >Home</NavLink>
       <NavLink
         to="/movies"
         exact
