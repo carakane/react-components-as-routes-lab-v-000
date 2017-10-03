@@ -1,7 +1,7 @@
 import React from 'react';
 import { movies } from '../data';
 
-const movies = movies.map(movie => <div>{movie.title}</div>)
+const movieList = movies.map(movie => <div>{movie.title}</div>)
 const Movies = () => {
   return (
 
@@ -9,7 +9,7 @@ const Movies = () => {
     <div>
         {/*{code here}*/}
         <h1>Movies Page</h1>
-        {movies}
+        {movieList}
     </div>
   );
 };
