@@ -1,7 +1,7 @@
 import React from 'react';
 import { movies } from '../data';
 
-const movieList = movies.map(movie => <div>{movie.title}, {movie.time}</div>)
+const movieList = movies.map(movie => <div>{movie.title}, {movie.time}, {movie.genre}</div>)
 
 const Movies = () => {
   return (
