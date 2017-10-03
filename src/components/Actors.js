@@ -6,7 +6,6 @@ const actorList = actors.map(actor => <div className="actor">{actor.name}</div>)
 const Actors = () => {
   return (
     <div>
-      {/*{code here}*/}
       <h1>Actors Page</h1>
     </div>
   );
