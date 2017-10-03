@@ -1,10 +1,10 @@
 import React from 'react';
 import { movies } from '../data';
 
+const movies = movies.map(movie => <div>{movie.title}</div>)
 const Movies = () => {
   return (
-    
-    const movies = movies.map(movie => <div>{movie.title}</div>)
+
 
     <div>
         {/*{code here}*/}
