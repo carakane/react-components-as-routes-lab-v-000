@@ -1,6 +1,9 @@
 import React from 'react';
 import { directors } from '../data';
 
+const directorList = directors.map(movie => <div>{director.name}</div>)
+
+
 const Directors = () => {
   return (
     <div>
