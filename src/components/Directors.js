@@ -9,6 +9,7 @@ const Directors = () => {
     <div>
       {/*{code here}*/}
       <h1>Directors Page</h1>
+      {directorList}
     </div>
   );
 }
